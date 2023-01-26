@@ -2,13 +2,70 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+
+    <link rel="shortcut icon" href="card.ico" type="image/x-icon">
+
+    <title>VALIDAÇÃO DO CARTÃO SAÚDE</title>
+
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+ <h1>VALIDAÇÃO DO CARTÃO DE CRÉDITO SAÚDE</h1>
+    <hr>
+
+      <div class="line">
+    <div class="column-50">
+    <h2 id="saudevalim">SAÚDE VALIM </h2>
+    <h3 id="yourcard">O SEU cartão de crédito para a SUA saúde!</h3>
+   
+    <br>
+
+    <img src="CARTAO DE CREDITO.png" alt="Cartão de crédito SAÚDE VALIM">
+    
+    <br>
+
+    <p id="benefits"> Agora que já possui o SAÚDE VALIM, poderá obter diversos <br> benefícios, como: acesso a consultas e exames médicos, <br> planos odontológicos, suporte natalidade e muito mais! <br> Tudo isso a custos acessíveis.</p>
+    </div>
+
+
+    <div class="column-50">
+      <br>
+  <h4 id="validation"> <br> Faça agora mesmo a VALIDAÇÃO do seu cartão SAÚDE VALIM <br> e obtenha acesso seguro aos seus pagamentos!</h4>
+    <h3 id="fill">PREENCHA OS DADOS ABAIXO E RECEBA A CONFIRMAÇÃO <br> DE VALIDAÇÃO DO SEU CARTÃO DE CRÉDITO</h3>
+    
+    <form>
+    <section>
+      <br>
+      <h3 class="table1">NOME DO TITULAR:</h3> <input type="text" id="cardHolderNamer" placeholder="Insira nome completo aqui"/>
+    </section>
+
+    <section>
+      <br>
+      <h3 class="table2">NÚMERO DO CARTÃO:</h3> <input type="number" maxlength="16" id="cardNumber" placeholder="****    ****    ****    0000"/>
+    </section>
+
+    <section>
+      <br>
+      <h3 class="table3">DATA DE VALIDADE:</h3> <input type="month" id="expirationDate"/>
+    </section>
+  </form>
+<br>
+
+    <section>
+      <br>
+    <button class="validation-Button" type="button"> <h2><strong> VALIDAR </strong></h2> </button>
+    </section>
+  </div>
+    </div>
+
+    <div class="modal" id="modal">
+      <div class="modal-content" id="modal-content"> </div>
+      <span id="close"> </span>
+    </div>
+     
+    <footer id="footer"> &copy; Criado e desenvolvido por Vanessa Menezes &#x1F49A; </footer>
+        
+    <script src="index.js" type="module"> </script>
   </body>
 </html>
