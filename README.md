@@ -6,7 +6,7 @@ Acesse o projeto atráves desse [LINK](https://github.com/VanessaNMenezes/SAP009
 
 ## Resumo do projeto
 
-Neste projeto, foi criado um aplicativo da Web que permita ao usuário 
+  Neste projeto, foi criado um aplicativo da Web que permita ao usuário 
 validar o número de um cartão de crédito, com a implementação da funcionalidade 
 para ocultar todos os dígitos de um cartão, exceto os quatro últimos.
 Nele, fui desafiada a criar uma interface que deve permitir ao usuário:
@@ -21,7 +21,7 @@ Nele, fui desafiada a criar uma interface que deve permitir ao usuário:
 
 ## E como esta validação do cartão de crédito é feita?
 
-Atráves do **Algoritmo de Luhn**, também conhecido como “Algoritmo do Módulo 10”,
+  Atráves do **Algoritmo de Luhn**, também conhecido como “Algoritmo do Módulo 10”,
 é uma fórmula  de soma de verificação simples, usada para determinar se o número 
 de identificação do cartão de crédito fornecido por um usuário é válido.
 
@@ -29,7 +29,7 @@ de identificação do cartão de crédito fornecido por um usuário é válido.
 
 ## DEFINIÇÃO DO PRODUTO
 
-o aplicativo web de validação do cartão de crédito **SAÚDE VALIM**, foi planejada com 
+  O aplicativo web de validação do cartão de crédito **SAÚDE VALIM**, foi planejada com 
 o intuito de fornecer uma página simples e intuitiva (inclusive para facilitar
 o acesso das pessoas 60+, uma vez que se trata de um benefício para a saúde), 
 direcionada ao público que já possui este cartão e deseja apenas validá-lo
@@ -42,7 +42,7 @@ se o campo do número do cartão estiver vazio, é solicitado que o mesmo preenc
 
 ## Nível de EXPERIÊNCIA e INTERFACE 
 
-A interface do usuário (UI), ou seja, a parte visual desse projeto, foi pensada
+  A interface do usuário (UI), ou seja, a parte visual desse projeto, foi pensada
 com base na empresa fictícia **SAÚDE VALIM**. Atráves da psicologia das cores, foi
 escolhida a cor verde, que representa tanto saúde, vitalidade e cura, quanto dinheiro.
 Como estamos falando de um cartão de crédito para serviços de saúde, esta cor foi 
@@ -51,10 +51,10 @@ a comunicação visual entre usuário e marca (SAÚDE VALIM), fortalecendo a ide
 visual dessa plataforma e tornando-a reconhecível.
 
 
-<img src= "src/paleta1.png" width = "300px" height = "400px"/> <img src= "src/paleta2.png" width = "300px" height = "400px"/>
+<img src= "src/paleta1.png" width = "350px" height = "400px"/>  <img src= "src/paleta2.png" width = "350px" height = "400px"/>
 
 
-Tanto a interface, quanto a experiência do usuário, foram pensadas e baseadas
+  Tanto a interface, quanto a experiência do usuário, foram pensadas e baseadas
 atráves de um protótipo construído no figma (imagem abaixo). A experiência do 
 usuário (UX), foi de forma geral estabelecida de maneira fácil, compreensível,
 simples, intuitiva e até mesmo interessante de ser utilizada pelo público-alvo.
