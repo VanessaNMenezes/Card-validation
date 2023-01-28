@@ -16,7 +16,7 @@ function validateCardNumber() { // Função é uma ação executada assim que é
 
   const creditCardNumberisValid = validator.isValid(identifyCardNumber); // para validar um usuário, essa função de validação é usada. A validação é um método para autenticar o usuário (aqui estou validando o número do cartão de crédito).
 
-   if (creditCardNumberisValid === true) {
+  if (creditCardNumberisValid === true) {
     finalValidationMessage.innerHTML = ` Prezado(a) ${identifyFullName}, PARABÉNS!!! SEU CARTÃO FOI VALIDADO COM  SUCESSO! &#x2705 <br> ${validator.maskify(identifyCardNumber)} - Data de validade: ${identifyExpirationDate} `
   } 
   else {
