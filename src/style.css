@@ -1,6 +1,5 @@
 body {
     background: #F5E1CE;
-    background-image: url(CARTAO DE CREDITO.png);
     font-family: helvetica;
 }
 
@@ -51,7 +50,7 @@ img {
 }
 
 #fill {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .table1 , .table2 , .table3 {
@@ -82,44 +81,9 @@ img {
     cursor: pointer;
 }
 
-.modal {
-    position: fixed;
-    padding: 0;
-    left: 0;
-    top: 0;
-    width: 50%;
-    height: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:#E8C39E;
-    transform: scale(1.1);
-    opacity: 0;
-    visibility: hidden;
-    transition: visibility 0.25s ease-in-out, transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
-}
-
-.modal-content {
-    background-color:#E8C39E; 
-    text-align: center;
-    padding: 30px 24px;
-    width: 600px;
-    height: 200px;
-    border-radius: 0.5rem;
-}
-
-.close {
-    background-color: #009929;
-    float:right;
-    width: 24px;
-    text-align: center;
-    cursor: pointer;
-    line-height: 24px;
-}
-
-.show-modal {
-    opacity: 1;
-    visibility: visible;
-    transform: scale(1.0);
+#validationMessage {
+   
+ 
+    
 }
   
