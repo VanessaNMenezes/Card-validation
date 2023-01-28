@@ -18,15 +18,15 @@ function validateCardNumber() { // Função é uma ação executada assim que é
   const identifyCardNumber = cardNumberInput.value;
   const identifyExpirationDate = expirationDateInput.value; //value, serve para obter o valor do campo.
 
-  const creditCardNumberIsValid = validator.isValid(identifyCardNumber); // para validar um usuário, essa função de validação é usada. A validação é um método para autenticar o usuário (aqui estou validando o número do cartão de crédito).
+  const creditCardNumberisValid = validator.isValid(identifyCardNumber); // para validar um usuário, essa função de validação é usada. A validação é um método para autenticar o usuário (aqui estou validando o número do cartão de crédito).
 
-  if (creditCardNumberIsValid === true) {
-    modalContentElement.innerHTML = ` Prezado(a), ${identifyFullName}, PARABÉNS! SEU CARTÃO FOI VALIDADO COM  SUCESSO! &#x2705 <br> ${validator.maskify(identifyCardNumber)} - Data de validade: ${identifyExpirationDate} A bandeira do seu cartão é `
+  if (creditCardNumberisValid === true) {
+    modalContentElement.innerHTML = ` Prezado(a), ${identifyFullName}, PARABÉNS!!! SEU CARTÃO FOI VALIDADO COM  SUCESSO! &#x2705 <b  ${validator.maskify(identifyCardNumber)} Data de validade: ${identifyExpirationDate} <br> A bandeira do seu cartão é `
 
   } else {
     modalContentElement.innerHTML = ` Prezado(a), ${identifyFullName}, OCORREU UM ERRO &#x274C <br> POR FAVOR, INSIRA UM NÚMERO DE CARTÃO VÁLIDO ${validator.maskify(identifyCardNumber)}`
     
-  } if (creditCardNumberIsValid === "") {
+  } if (creditCardNumberisValid === " ") {
     modalContentElement.innerHTML = ` Prezado(a), ${identifyFullName}, POR FAVOR, INSIRA O NÚMERO DO SEU CARTÃO! &#x26A0`
   }
 }

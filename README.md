@@ -50,8 +50,9 @@ definida. Sendo assim, duas paletas foram selecionadas (imagens abaixo) para est
 a comunicação visual entre usuário e marca (SAÚDE VALIM), fortalecendo a identidade 
 visual dessa plataforma e tornando-a reconhecível.
 
-![Paleta 1](src/paleta1.png) height: 380px; width: 480px
-![Paleta 2](src/paleta2.png) height: 380px; width: 480px
+
+<img src= "src/paleta2.png" width = "200px" height = "200px"/>
+<img src= "src/paleta1.png" width = "200px" height = "200px"/>
 
 
 Tanto a interface, quanto a experiência do usuário, foram pensadas e baseadas
@@ -59,6 +60,6 @@ atráves de um protótipo construído no figma (imagem abaixo). A experiência d
 usuário (UX), foi de forma geral estabelecida de maneira fácil, compreensível,
 simples, intuitiva e até mesmo interessante de ser utilizada pelo público-alvo.
 
-![Protótipo do figma](src/Prototipo%20do%20figma.png) height: 380px; width: 480px
+![Protótipo do figma](src/Prototipo%20do%20figma.png)
 
 ***
