@@ -51,7 +51,7 @@ a comunicação visual entre usuário e marca (SAÚDE VALIM), fortalecendo a ide
 visual dessa plataforma e tornando-a reconhecível.
 
 
-<img src= "src/paleta2.png" width = "400px" height = "400px"/> <img src= "src/paleta1.png" width = "400px" height = "400px"/>
+<img src= "src/paleta1.png" width = "300px" height = "400px"/> <img src= "src/paleta2.png" width = "300px" height = "400px"/>
 
 
 Tanto a interface, quanto a experiência do usuário, foram pensadas e baseadas
