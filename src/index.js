@@ -20,7 +20,7 @@ function validateCardNumber() { // Função é uma ação executada assim que é
     finalValidationMessage.innerHTML = ` Prezado(a) ${identifyFullName}, PARABÉNS!!! SEU CARTÃO FOI VALIDADO COM  SUCESSO! &#x2705 <br> ${validator.maskify(identifyCardNumber)} - Data de validade: ${identifyExpirationDate} `
   } 
   else {
-    finalValidationMessage.innerHTML = ` Prezado(a) ${identifyFullName}, <strong> OCORREU UM ERRO </strong> &#x274C <br> POR FAVOR, <strong> INSIRA UM NÚMERO DE CARTÃO VÁLIDO. </strong> `
+    finalValidationMessage.innerHTML = ` Prezado(a) ${identifyFullName}, <strong> OCORREU UM ERRO </strong> &#x274C <br> POR FAVOR, INSIRA UM NÚMERO DE CARTÃO <strong> VÁLIDO. </strong> `
   }
   if (identifyCardNumber === "") {
     finalValidationMessage.innerHTML = ` Prezado(a) ${identifyFullName}, <strong> POR FAVOR, INSIRA O NÚMERO DO SEU CARTÃO! </strong>⚠️`
