@@ -4,9 +4,9 @@ const validator = {
    
   maskify(creditCardNumber) {
     const maskNumber = []; //Cria uma variável vazia para receber os números que o usuário colocar.
-    for (let i = 0; i < creditCardNumber.length; i++) { // (i) pede para exibir no navegador o conteúdo da variável i. O < vai retornar true se o i for menor que a variável creditCardNumber e false caso contrário. Depois vai pegar o "comprimento" de maskNumber e atualizar a expressão inicial representada pelo comando i++, que significa adicionar 1 ao valor de i.
+    for (let i = 0; i < creditCardNumber.length; i++) { // O (i) pede para exibir no navegador o conteúdo da variável i. O < vai retornar true se o i for menor que a função creditCardNumber e false caso contrário. Depois vai pegar o "comprimento" de creditCardNumber e atualizar a expressão inicial representada pelo comando i++, que significa adicionar 1 ao valor de i.
       if (i < creditCardNumber.length - 4) { // vai pegar os números de creditCardNumber e subtrair ("tirar/isolar") os 4 últimos dígitos.
-        maskNumber.push('#'); // vai colocar o símbolo # no lugar dos números, exceto os 4 últimos que foram "isolados".
+        maskNumber.push('#'); // vai colocar o símbolo # no lugar dos números, exceto os 4 últimos que foram "isolados". O método push adiciona um ou mais elementos ao final de um array e retorna o novo comprimento desse array.
       } else {
         maskNumber.push(creditCardNumber[i]); // vai pegar os números que foram mascarados por # (creditCardNumber) juntamente com o restante que foi "isolado" (4 últimos).
       }
