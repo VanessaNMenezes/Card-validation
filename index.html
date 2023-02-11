@@ -12,7 +12,7 @@
 
   <body>
  <h1>VALIDAÇÃO DO CARTÃO DE CRÉDITO SAÚDE</h1>
-  <hr>
+    <hr>
 
       <div class="line">
     <div class="column-50">
@@ -28,19 +28,21 @@
     <p id="benefits"> Agora que já possui o SAÚDE VALIM, poderá obter diversos <br> benefícios, como: acesso a consultas e exames médicos, <br> planos odontológicos, suporte natalidade e muito mais! <br> Tudo isso a custos acessíveis.</p>
     </div>
 
+
     <div class="column-50">
-  
+      <br>
   <h4 id="validation"> <br> Faça agora mesmo a VALIDAÇÃO do seu cartão SAÚDE VALIM <br> e obtenha acesso seguro aos seus pagamentos!</h4>
-    <p id="fill">PREENCHA OS DADOS ABAIXO E RECEBA A CONFIRMAÇÃO <br> DE VALIDAÇÃO DO SEU CARTÃO DE CRÉDITO</p>
+    <h3 id="fill">PREENCHA OS DADOS ABAIXO E RECEBA A CONFIRMAÇÃO <br> DE VALIDAÇÃO DO SEU CARTÃO DE CRÉDITO</h3>
     
     <form>
     <section>
+      <br>
       <h3 class="table1">NOME DO TITULAR:</h3> <input type="text" id="cardHolderNamer" placeholder="Insira nome completo aqui"/>
     </section>
 
     <section>
       <br>
-      <h3 class="table2">NÚMERO DO CARTÃO:</h3> <input type="number" id="cardNumber" placeholder="0000    0000    0000    0000"/>
+      <h3 class="table2">NÚMERO DO CARTÃO:</h3> <input type="number" maxlength="16" id="cardNumber" placeholder="****    ****    ****    0000"/>
     </section>
 
     <section>
@@ -49,15 +51,18 @@
     </section>
   </form>
 <br>
+
     <section>
       <br>
-    <button id="validationButton" type="button"> <h2><strong> VALIDAR </strong></h2> </button>
+    <button class="validation-Button" type="button"> <h2><strong> VALIDAR </strong></h2> </button>
     </section>
-    <br>
-    <div id="validationMessage"></div>
-
   </div>
-</div>
+    </div>
+
+    <div class="modal" id="modal">
+      <div class="modal-content" id="modal-content"> </div>
+      <span id="close"> </span>
+    </div>
      
     <footer id="footer"> &copy; Criado e desenvolvido por Vanessa Menezes &#x1F49A; </footer>
         
