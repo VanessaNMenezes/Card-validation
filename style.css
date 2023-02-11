@@ -71,7 +71,7 @@ img {
     text-align: center;
 } 
 
-.validation-Button {
+#validationButton {
     display: block;
     margin: auto;
     width: 200px;
