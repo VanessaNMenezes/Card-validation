@@ -1,6 +1,6 @@
 # Cartão de Crédito Válido - SAÚDE VALIM
 
-### Acesse o projeto completo [CLICANDO AQUI](https://vanessanmenezes.github.io/card-validation/)
+### Acesse o projeto completo [CLICANDO AQUI](https://vanessanmenezes.github.io/Card-validation/)
 
 ***
 
