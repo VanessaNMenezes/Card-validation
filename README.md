@@ -1,6 +1,6 @@
-# Cartão de Crédito Válido - SAÚDE VALIM
+# <div align="center"> 🟩 Validação do Cartão de Crédito - SAÚDE VALIM 🟩 </div>
 
-### Acesse o projeto completo [CLICANDO AQUI](https://vanessanmenezes.github.io/Card-validation/)
+###  <div align="center"> Acesse o projeto completo [CLICANDO AQUI](https://vanessanmenezes.github.io/Card-validation/) </div>
 
 ***
 
@@ -60,5 +60,9 @@ usuário (UX), foi de forma geral estabelecida de maneira fácil, compreensível
 simples, intuitiva e até mesmo interessante de ser utilizada pelo público-alvo.
 
 ![Protótipo do figma](src/Prototipo%20do%20figma.png)
+
+***
+
+### 🟩 ESTE PROJETO FOI CRIADO E DESENVOLVIDO POR: [VANESSA MENEZES](https://github.com/VanessaNMenezes) 💚
 
 ***
